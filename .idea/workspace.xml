@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/src/main/java/app/kind/org/datecaller/DatecallerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datecaller/src/test/java/app/kind/org/datecaller/DatecallerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/src/main/java/app/kind/org/dateresponder/DateresponderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/src/main/java/app/kind/org/dateresponder/controller/ServerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dateresponder/src/test/java/app/kind/org/dateresponder/DateresponderApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2jxpv7J4wIGzaYbXSCik2pFoGJw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="" />
+      <created>1722338812032</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722338812032</updated>
+    </task>
+    <servers />
+  </component>
+</project>
