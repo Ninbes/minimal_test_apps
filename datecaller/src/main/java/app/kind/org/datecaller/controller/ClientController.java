@@ -16,7 +16,7 @@ public class ClientController {
     @GetMapping("/fetch-date")
     public String fetchDate() {
         return webClient.get()
-                .uri("/current-date")
+                .uri("/currentDate")
                 .retrieve()
                 .bodyToMono(String.class)
                 .block();
