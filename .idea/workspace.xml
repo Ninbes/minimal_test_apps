@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="Dockerfiles created for the responder and caller services">
+    <list default="true" id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="Assigned the correct server port values to application.properties">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datecaller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datecaller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dateresponder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dateresponder/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datecaller/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/datecaller/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dateresponder/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/dateresponder/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722346949739</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add final name to pom.xml">
+      <option name="closed" value="true" />
+      <created>1722409962398</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722409962398</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dateresponder created" />
     <MESSAGE value="Dockerfiles created for the responder and caller services" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dockerfiles created for the responder and caller services" />
+    <MESSAGE value="Add final name to pom.xml" />
+    <MESSAGE value="Assigned the correct server port values to application.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="Assigned the correct server port values to application.properties" />
   </component>
 </project>
