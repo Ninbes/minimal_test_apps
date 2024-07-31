@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="Dockerfiles created for the responder and caller services">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datecaller/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/datecaller/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datecaller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/datecaller/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dateresponder/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dateresponder/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722343336436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dockerfiles created for the responder and caller services">
+      <option name="closed" value="true" />
+      <created>1722346949739</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1722346949739</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
