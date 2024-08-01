@@ -11,4 +11,4 @@ spec:
       targetPort: {{ .Values.virtualService.port}}
       protocol: TCP
   selector:
-    {{ .Values.appName}}
+    app: {{ .Values.appName}}
