@@ -19,7 +19,8 @@ gateway:
 virtualService:
     port: 8089
 
-imagePullSecrets: []
+imagePullSecrets: 
+  name: ghcr-secret
 
 service:
   type: ClusterIP
