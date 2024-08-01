@@ -8,11 +8,11 @@ spec:
     app: istio-ingressgateway
     istio: ingressgateway
   servers:
+    {{- range .Values.hosts }}
     - hosts:
-      {{- range .Values.hosts }}
       - {{ . }}
-      {{- end }}
-    port:
-      name: http
-      number: {{ .Values.gateway.port}}
-      protocol: HTTP
+      port:
+        name: http
+        number: {{ $.Values.gateway.port }}
+        protocol: HTTP
+    {{- end }}
