@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ping Service</title>
+</head>
+<body>
+    <h1>Ping Service</h1>
+    <form id="pingForm">
+        <label for="playerName">Player Name:</label>
+        <input type="text" id="playerName" name="playerName" required>
+        <button type="submit">Ping</button>
+    </form>
+    <div id="response"></div>
+
+    <script>
+        document.getElementById('pingForm').addEventListener('submit', async function(event) {
+            event.preventDefault();
+            const playerName = document.getElementById('playerName').value;
+            const responseDiv = document.getElementById('response');
+
+            try {
+                const response = await fetch('/ping', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ playerName }),
+                });
+                const result = await response.json();
+                responseDiv.innerHTML = `<p>${result.message}</p>`;
+            } catch (error) {
+                responseDiv.innerHTML = `<p>Error: ${error.message}</p>`;
+            }
+        });
+    </script>
+</body>
+</html>
