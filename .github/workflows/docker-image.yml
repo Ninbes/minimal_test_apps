@@ -1,0 +1,37 @@
+name: Docker Image Build and Push Ping and Pong
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        service: [ping, pong]
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Convert repository owner to lowercase
+      id: lowercase
+      run: echo "owner=$(echo '${{ github.repository_owner }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
+    - name: Log in to GitHub Container Registry
+      uses: docker/login-action@v2
+      with:
+        registry: ghcr.io
+        username: ${{ github.repository_owner }}
+        password: ${{ secrets.GH_T }}
+
+    - name: Build and push ${{ matrix.service }} image
+      uses: docker/build-push-action@v6
+      with:
+        context: ./${{ matrix.service }}  
+        push: true
+        tags: ghcr.io/${{ env.owner }}/${{ matrix.service }}:latest
+
+    - name: Log out from GitHub Container Registry
+      run: docker logout ghcr.io
