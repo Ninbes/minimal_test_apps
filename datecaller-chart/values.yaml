@@ -10,14 +10,14 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
 appName: datecaller
-namespace: app-service
+namespace: client-service
 hosts: 
     - datecaller.app.kind.org
 gateway:
     port: 80
 
 virtualService:
-    port: 8088
+    port: 80
 
 imagePullSecrets: 
   name: ghcr-secret
