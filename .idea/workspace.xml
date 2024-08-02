@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="server.address fix">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datecaller/src/main/java/app/kind/org/datecaller/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/datecaller/src/main/java/app/kind/org/datecaller/controller/ClientController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
