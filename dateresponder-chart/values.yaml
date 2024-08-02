@@ -17,7 +17,7 @@ gateway:
     port: 80
 
 virtualService:
-    port: 8089
+    port: 80
 
 imagePullSecrets: 
   name: ghcr-secret
