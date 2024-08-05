@@ -23,3 +23,12 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           ports:
             - containerPort: {{ .Values.virtualService.port}}
+          env:
+            - name: REDIS_HOST
+              value: "redis"  # Assuming Redis is deployed as a service named 'redis'
+            - name: REDIS_PORT
+              value: "6379"
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name

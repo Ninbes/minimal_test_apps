@@ -10,5 +10,6 @@ spec:
     - port: {{ .Values.service.port }}
       targetPort: {{ .Values.virtualService.port}}
       protocol: TCP
+  type: loadBalancer
   selector:
     app: {{ .Values.appName}}
