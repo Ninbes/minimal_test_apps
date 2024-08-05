@@ -16,6 +16,7 @@ EXPOSE 80
 # Define environment variable
 ENV FLASK_APP=app.py
 ENV FLASK_RUN_HOST=0.0.0.0
+ENV FLASK_RUN_PORT=80
 
 # Run flask when the container launches
-CMD ["flask", "run"]
+CMD ["flask", "run", "--host=0.0.0.0", "--port=80"]
