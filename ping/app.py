@@ -1,16 +1,16 @@
-from flask import Flask, request, jsonify, send_from_directory
+from flask import Flask, request, jsonify,  render_template
 import requests
 
 app = Flask(__name__)
 
 # Pong service URL
-PONG_SERVICE_URL = "http://<pong-service-url>:5000/pong"  # Replace <pong-service-url> with the actual Pong service URL
+PONG_SERVICE_URL = "http://pong.app.kind.org:31080/pong"  # Replace <pong-service-url> with the actual Pong service URL
 
 
 # Serve the HTML file
 @app.route('/')
 def index():
-    return send_from_directory('.', 'index.html')
+    return render_template('index.html')
 
 
 # Ping endpoint
@@ -32,4 +32,4 @@ def ping():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80)
