@@ -1,9 +1,11 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
 import socket
 import redis
 
 app = Flask(__name__)
+CORS(app)
 
 # Connect to Redis
 redis_host = os.getenv('REDIS_HOST', 'localhost')

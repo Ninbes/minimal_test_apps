@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="server.address fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ping/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/ping/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="d1119d97-98b5-44f1-83f3-fb0dd9efea48" name="Changes" comment="server.address fix" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
