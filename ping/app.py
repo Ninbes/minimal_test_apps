@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Pong service URL
-PONG_SERVICE_URL = "http://pong.app.kind.org:30080/pong"  # Replace <pong-service-url> with the actual Pong service URL
+PONG_SERVICE_URL = "http://pong.app.kind.org:31080/pong"  # Replace <pong-service-url> with the actual Pong service URL
 
 
 # Serve the HTML file
