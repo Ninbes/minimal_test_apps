@@ -6,7 +6,7 @@ import redis
 
 app = Flask(__name__)
 CORS(app)
-
+#CORS added
 # Connect to Redis
 redis_host = os.getenv('REDIS_HOST', 'localhost')
 redis_port = int(os.getenv('REDIS_PORT', 6379))
