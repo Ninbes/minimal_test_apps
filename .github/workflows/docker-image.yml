@@ -1,7 +1,20 @@
 name: Docker Image Build and Push Ping and Pong
 
 on:
-  workflow_dispatch: {}
+  workflow_dispatch: 
+    inputs:
+      VENDOR:
+        description: "Vendor Name"
+        required: true
+        default: "Grubhub"
+      SERVICETYPE:
+        description: "Service Type"
+        required: true
+        default: "Menu"
+      ANOTHER_ARG:
+        description: "Another Argument"
+        required: false
+        default: "DefaultValue"
 
 jobs:
   build-and-push:
