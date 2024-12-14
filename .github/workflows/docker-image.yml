@@ -6,15 +6,12 @@ on:
       VENDOR:
         description: "Vendor Name"
         required: true
-        default: "Grubhub"
       SERVICETYPE:
         description: "Service Type"
         required: true
-        default: "Menu"
       ANOTHER_ARG:
         description: "Another Argument"
         required: false
-        default: "DefaultValue"
 
 jobs:
   build-and-push:
