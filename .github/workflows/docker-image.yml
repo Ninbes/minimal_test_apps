@@ -7,11 +7,16 @@ on:
         description: "Vendor Name"
         required: true
       SERVICETYPE:
+        type: choice
         description: "Service Type"
+        options:
+        - Menu
+        - Order
         required: true
       ANOTHER_ARG:
         description: "Another Argument"
         required: false
+        
 
 jobs:
   build-and-push:
